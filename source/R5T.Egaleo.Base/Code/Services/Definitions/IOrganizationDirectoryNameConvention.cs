@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Egaleo
-{
-    public interface IOrganizationDirectoryNameConvention
+{[ServiceDefinitionMarker]
+    public interface IOrganizationDirectoryNameConvention:IServiceDefinition
     {
         string GetOrganizationDirectoryName(string organizationName);
     }
